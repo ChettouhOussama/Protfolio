@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+    padding: 20px 0;
+    column-gap: 00.8rem;
+}
+.nav-links li{
+    text-transform: uppercase;
+    font-size: 0.94rem;
+    padding: 5px 25px;
+    border-radius: 0.2rem;
+}
+.nav-links li a {
+    color: #1C6758;
+    font-weight: bold;
+}
+.nav-links :hover{
+    color: white;
+    background: #1C6758;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav-content img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #1C6758;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.nav-content h1{
+    font-size: 2rem;
+    margin-top: -1.3rem ;
+}
+.nav-content h2{
+    font-size: 2.7rem;
+    line-height: 4rem;
+    margin-top: -1rem ;
+}
+.nav-content p{
+    font-size: 0.938rem;
+    margin-top: -1rem;
+    text-align: center;
+}
+.nav-content .color{
+    color: #1C6758;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.social {
+    font-size: 1rem;
+    color: white;
+    margin: 1rem 2rem;
+    column-gap: 00.8rem;
+}
+.social .fa{
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 50%;
+    color: white;
+    background: #1C6758;
+}
+.social .fa:hover{
+    background: #3d9c5e;
+    transition: 0.3s all linear;
+}
+
+.heading{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.about-sec{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    gap: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.about-header span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1C6758;
+}
+.about-header h1{
+    font-size: 2rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+.btn{
+    font-size: 0.97rem;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    color: white;
+    background: #1C6758;
+    padding: 12px 16px;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+}
+.btn:hover{
+    background-color: #3d9c5e;
+    transition: 0.3s all linear ;
+}
+.about-content{
+    font-size: 0.938rem;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    gap: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.serv{
+    background-color: #1C6758;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 15px;
+}
+.serv:hover{
+    background-color: #3d9c5e;
+    cursor: pointer;
+    transition: 0.3s all linear ;
+    transform: scale(1.05);
+}
+.serv i{
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius:5rem;
+    border: 2px dashed white;
+}
+.serv h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 1.5rem 1.5rem;
+}
+.serv p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0.5rem 0;
+
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    gap: 1.5rem;
+}
+.ski{
+    border: white dashed ;
+    background-color: #1C6758;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 15px;
+    margin: 1rem 8rem;
+    font-size: 1.1rem;
+
+}
+.ski-html:hover{
+    background-color: orange;
+    cursor: pointer;
+    transition: 0.3s all linear ;
+    transform: scale(1.05);
+
+}
+.ski-css:hover{
+    background-color: blue;
+    cursor: pointer;
+    transition: 0.3s all linear ;
+    transform: scale(1.05);
+}
+.ski-js:hover{
+    background-color: rgba(232, 232, 0, 0.63);
+    cursor: pointer;
+    transition: 0.3s all linear ;
+    transform: scale(1.05);
+}
+.ski-php:hover{
+    background-color: purple;
+    cursor: pointer;
+    transition: 0.3s all linear ;
+    transform: scale(1.05);
+}
+.ski-sql:hover{
+    background-color: #21d821;
+    cursor: pointer;
+    transition: 0.3s all linear ;
+    transform: scale(1.05);
+}
+.ski-adobe:hover{
+    background-color: red;
+    cursor: pointer;
+    transition: 0.3s all linear ;
+    transform: scale(1.05);
+}
+.contact{
+    max-width : 600px ;
+    margin: auto ;
+    width: 100% ;
+    display: grid ;
+    row-gap : 1rem ;
+
+}
+.contact input, textarea {
+    border: 2px solid #1C6758;
+    outline: none;
+    font-size: 0.9rem;
+    padding: 15px;
+    border-radius: 0.4rem;
+}
+.send-btn{
+    width: 120px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 12px;
+    background: #1C6758;
+    cursor: pointer;
+    color: white;
+}
+.send-btn:hover{
+    background-color: #3d9c5e;
+    transition: 0.3s all linear;
+}
+.footer{
+    display : flex ;
+    align-items : center ;
+    flex-direction : column ;
+    row-gap : 1.4rem;
+    padding : 30px 0;
+}
+.footer-links {
+    display: flex ;
+    align-items : center ;
+    column-gap : 2rem ;
+}
+.footer-links a {
+    font-size : 1rem ;
+    font-weight :500 ;
+    color: #1C6758;
+}
+.footer p {
+    font-size : 0.9rem ;
+}

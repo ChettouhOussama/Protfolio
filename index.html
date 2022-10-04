@@ -2,81 +2,136 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chettouh Oussama</title>
+    <title>OUSSAMA</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
 </head>
 <body>
-    <!--this the navbar section-->
-    <center>
-        <h1>Hello Am Oussama Chettouh  </h1>
-        <img  style="height:auto;" alt="my pictures" width="260" height="260" src="images/oussama.jfif" title="its me ">
-         <p>this is a simple fortfolio of me using html pure</p>
-         <audio controls>
-            <source src="sounds/ouss.mp3">
 
-         </audio>
-        <hr>
-             <div>
-                 <a href="">Home</a>&nbsp&nbsp
-                 <a href="">About</a>&nbsp&nbsp
-                <a href="">Work</a>&nbsp&nbsp
-                 <a href="">Resume</a>&nbsp&nbsp
-                 <a href="">Contact</a>&nbsp&nbsp
-            </div>
-    </center>
-    
-    <!--this is the about me section-->
-    <section name="aboutsec">
-        <h1>
-            <u>About me</u>
-        </h1>
-             <H">Am a software engineer, I joined the <b>GoMyCode</b> fullstack Group to develop my <b>skills & be creative !</b></H>
-             <p>if you want more about me <a href="https://github.com/ChettouhOussama" target="_blank">Click here !</a> to see my github acount</P>
-    </section>
-    
-    <!--this is the work section -->
-    <section name="worksec">
-        <h1> 
-            <u> Work </u>
-        </h1>
-            <p>For the expreince life i work at a constructon company as a helpdesk , Also am a <mark>photgrapher </mark> for the free times </p>
-            <p>this is my instagram account if you want to check my shootes and also videos <a href="https://www.instagram.com/im.ousama/" target="_blank"> <i>@im.ousama</i></a></p>
-    </section>
+<header>
+        <!-- This is a navbar-->
+    <div class="navbar" >
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </div>
+    <!-- This is the content of the  navbar-->
+    <div class="nav-content" id="home">
+        <img src="images/oussama.png" alt="oussama">
+        <h1>Hello</h1>
+        <h2>I'm <span class="color"> Oussama Chettouh</span></h2>
+        <p>
+            Am a <span class="color">software engineer</span>, I joined the <span class="color">GoMyCode</span> fullstack Group to develop my skills  be creative !
+            <br><br> Here's bit more <span class="color">about me.</span>
+        </p>
+    </div>
+    <!-- Social-->
+    <div class="social">
+        <a href="" class="fa"><i class="fa-brands fa-facebook"></i></a>
+        <a href="" class="fa"><i class="fa-brands fa-instagram"></i></a>
+        <a href="" class="fa"><i class="fa-brands fa-github"></i></a>
+    </div>
+</header>
 
-    <!--the is the resume section-->
-    <section name="resumesec">
-        <h1>
-            <u>Resume</u>
-        </h1>
-        <p>if you want my resume click  <a href="documents/chettouh oussama.pdf"> Dowanload </a> it  </p>
-    </section>
-
-    <!--the is the contact -->
-    <section name="contactsec">
-        <h1>
-            <u>
-                Contact
-            </u>
-        </h1>
-        <form>
-            <label>For more information please you can call me </label>
-            <a href="tel:+213561378931">
-                <img src="images/telephone.png" alt="phone" width="20" height="20">
-            </a>
-            <br><br>
-            <textarea rows="4" cols="40" placeholder="Write a feebak here..."></textarea>
-        </form>
-    </section>
-    <hr>
-    <!--this the footer section-->
-    <footer>
-        <center>
-            <p>
-                &#169; Copyright 2022 by Oussama Chettouh. All Rights Reserved.
+<!-- This is the about section -->
+<section id="about">
+    <h1 class="heading">About </h1>
+    <div class="about-sec">
+        <div class="about-header">
+            <span>About Me</span>
+            <h1>Am a software engineer</h1>
+            <a class="btn" href="document/cv.pdf">Download my CV <i class="fa-solid fa-download"></i></a>
+        </div>
+        <div class="about-content">
+            <p>with robust
+                problem-solving skills and proven experience
+                in creating and designing software in a testdriven
+                environment.</p>
+            <p>Also am a designer , creating logo , flyer , social media post ...<br>
+                using Adobe Ai,Ps,Pr.
             </p>
-        </center>
-        
-    </footer>
+        </div>
+    </div>
+</section>
+<!-- This is the Services section -->
+<section id="services">
+    <h1 class="heading">services</h1>
+    <div class="services">
+        <div class="serv">
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquid eos excepturi accusamus illo necessitatibus dolore minima exercitationem ab, amet inventore tempora vel porro deleniti perferendis eum a? Provident, officia.</p>
+
+        </div>
+        <div class="serv">
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>Designer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquid eos excepturi accusamus illo necessitatibus dolore minima exercitationem ab, amet inventore tempora vel porro deleniti perferendis eum a? Provident, officia.</p>
+        </div>
+        <div class="serv">
+            <i class="fa-sharp fa-solid fa-camera-retro"></i>
+            <h2>Photographer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquid eos excepturi accusamus illo necessitatibus dolore minima exercitationem ab, amet inventore tempora vel porro deleniti perferendis eum a? Provident, officia.</p>
+        </div>
+    </div>
+</section>
+<!-- This is the Services section -->
+<section id="skills">
+    <h2 class="heading">Skills</h2>
+    <div class="skills">
+        <div class="ski ski-html">
+            <i class="fa-brands fa-html5"></i> <h4>HTML</h4>
+        </div>
+
+        <div class="ski ski-css">
+            <i class="fa-brands fa-css3-alt"></i> <h4>CSS</h4>
+        </div>
+
+        <div class="ski ski-js">
+            <i class="fa-brands fa-js"></i> <h4>JS</h4>
+        </div>
+
+        <div class="ski ski-php">
+            <i class="fa-brands fa-php"></i> <h4>PHP</h4>
+        </div>
+
+        <div class="ski ski-sql">
+            <i class="fa-solid fa-database"></i> <h4>SQL</h4>
+        </div>
+
+        <div class="ski ski-adobe">
+            <i class="fa-regular fa-object-ungroup"></i> <h4>Adobe</h4>
+        </div>
+    </div>
+</section>
+<!-- This is the Contact section -->
+<section id="contact">
+    <h2 class="heading">Contact</h2>
+
+        <form method="post" action="https://www.google.com/" class="contact">
+            <input type="text" placeholder="YOUR NAME" name="full name" required>
+            <input type="email" placeholder="YOUR EMAIL" name="email" resource="">
+            <textarea  name="comment" cols="30" rows="10" placeholder="Write message here..."></textarea>
+            <input type="submit" name="submit" value="Send" class="send-btn" required>
+        </form>
+</section>
+<footer>
+    <h2 class="heading"></h2>
+    <!-- Footer Link -->
+    <div class="footer">
+            <div class="footer-links">
+                <a href="#"> Privacy Policy</a>
+                <a href="#"> Terms Of Use </a>
+                <a href="#"> Disclaimer </a>
+            </div>
+            <!--Copyright-->
+            <p> &#169; oussama chettouh 2022 </p>
+    </div>
+</footer>
 </body>
 </html>
